@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Food - home delivery</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css\normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="index.html" class="logo">
+          <img src="img\logo.svg" alt="Logo" />
+        </a>
+        <input
+          type="text"
+          class="input input-address"
+          placeholder="Delivery address"
+        />
+        <div class="buttons">
+          <button class="button button-primary">
+            <img src="img/user.svg" alt="user" class="button-icon" />
+            <span class="button-text">Log in</span>
+          </button>
+          <button class="button">
+            <img
+              src="img/shopping-cart.svg"
+              alt="shop-cart"
+              class="button-icon"
+            />
+            <span class="button-text">Shop-cart</span>
+          </button>
+          <select class="button section" name="forma" onchange="location=this.value"> 
+            <option value="index.html">En</option>
+            <option value="russe.html">Ru</option>
+          </select>
+        </div>
+      </header>
+    </div>
+    <!-- /.container -->
+
+    <main class="main">
+      <div class="container">
+        <section class="promo">
+          <h1 class="promo-title">Online service<br />home delivery</h1>
+          <p class="promo-text">
+            Dishes from your favorite restaurant will be delivered by courier in gloves, mask and with antiseptic
+          </p>
+        </section>
+
+        <section class="restaurants">
+          <div class="section-heading">
+            <h2 class="section-title">Restaurants</h2>
+            <input
+              type="text"
+              class="input input-search"
+              placeholder="Search for food and restaurants"
+            />
+          </div>
+          <div class="cards">
+            <a href="restaurant.html" class="card">
+              <img src="img/image.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Pizza Plus</h3>
+                  <span class="card-tag tag">50 min</span>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="img/rating.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />
+                    4.5
+                  </div>
+                  <div class="price">From 10 $</div>
+                  <div class="category">Pizza</div>
+                </div>
+                <!-- /.card-info -->
+              </div>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+
+            <a href="restaurant.html" class="card">
+              <img src="img/image1.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Tanuki</h3>
+                  <span class="card-tag tag">45 min</span>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="img/rating.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />
+                    4.2
+                  </div>
+                  <div class="price">From 12 $</div>
+                  <div class="category">Asian cuisine</div>
+                </div>
+                <!-- /.card-info -->
+              </div>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+
+            <a href="restaurant.html" class="card">
+              <img src="img/image2.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title">FoodBand</h3>
+                  <span class="card-tag tag">40 min</span>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="img/rating.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />
+                    4.0
+                  </div>
+                  <div class="price">From 8 $</div>
+                  <div class="category">Wok</div>
+                </div>
+                <!-- /.card-info -->
+              </div>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+
+            <a href="restaurant.html" class="card">
+              <img src="img/image3.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Zhadina-pizza</h3>
+                  <span class="card-tag tag">45 min</span>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="img/rating.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />
+                    4.7
+                  </div>
+                  <div class="price">From 8.5 $</div>
+                  <div class="category">Sushi</div>
+                </div>
+                <!-- /.card-info -->
+              </div>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+
+            <a href="restaurant.html" class="card">
+              <img src="img/image4.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title">The point of food</h3>
+                  <span class="card-tag tag">60 min</span>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="img/rating.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />
+                    4.8
+                  </div>
+                  <div class="price">From 15 $</div>
+                  <div class="category">French cuisine</div>
+                </div>
+                <!-- /.card-info -->
+              </div>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+
+            <a href="restaurant.html" class="card">
+              <img src="img/image5.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title">PizzaBurger</h3>
+                  <span class="card-tag tag">35 min</span>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="img/rating.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />
+                    4.3
+                  </div>
+                  <div class="price">From 7 $</div>
+                  <div class="category">Burgers</div>
+                </div>
+                <!-- /.card-info -->
+              </div>
+              <!-- /.card-text -->
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.cards -->
+        </section>
+      </div>
+      <!-- /.container -->
+    </main>
+
+    <footer class="footer">
+      <a class="container">
+        <div class="footer-block">
+          <img src="img/logo.svg" alt="logo" class="logo footer-logo" />
+          <nav class="footer-nav">
+            <a href="#" class="footer-link">To Restaurants</a>
+            <a href="#" class="footer-link">To Couriers</a>
+            <a href="#" class="footer-link">Press center</a>
+            <a href="#" class="footer-link">Contacts</a>
+          </nav>
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><img src="img/instagram.svg" alt="instagram"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/facebook.svg" alt="facebook"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/vk.svg" alt="vk"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

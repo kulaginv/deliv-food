@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PizzaBurger - home delivery</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="Logo" />
+        </a>
+        <input
+          type="text"
+          class="input input-address"
+          placeholder="Delivery address"
+        />
+        <div class="buttons">
+          <button class="button button-primary">
+            <img src="img/user.svg" alt="user" class="button-icon" />
+            <span class="button-text">Log in</span>
+          </button>
+          <button class="button" id="cart-button">
+            <img
+              src="img/shopping-cart.svg"
+              alt="shop-cart"
+              class="button-icon"
+            />
+            <span class="button-text">Shop-cart</span>
+          </button>
+          <select class="button section" name="forma" onchange="location=this.value">
+            <option value="restaurant.html">En</option>
+            <option value="restaurant russe.html">Ru</option>
+          </select>
+        </div>
+      </header>
+    </div>
+    <!-- /.container -->
+
+    <main class="main">
+      <div class="container">
+        <section class="restaurants">
+          <div class="section-heading">
+            <h2 class="section-title">Tanuki</h2>
+            <div class="card-info">
+              <div class="rating">
+                <img src="img/rating.svg" alt="rating" class="rating-star" />
+                4.5
+              </div>
+              <div class="price">From 10 $</div>
+              <div class="category">Sushi</div>
+            </div>
+            <!-- /.card-info -->
+          </div>
+          <div class="cards">
+            <div
+              class="card animate__animated animate__fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <img src="img/imaget.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title card-title-reg">Eel roll standard</h3>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="ingredients">
+                    Rice, eel, unagi sauce, sesame, nori seaweed.
+                  </div>
+                </div>
+                <!-- /.card-info -->
+                <div class="card-buttons">
+                  <button class="button button-primary">
+                    <span class="button-card-text">Add to basket</span>
+                    <img
+                      src="img/shopping-cart2.svg"
+                      alt="shop-cart"
+                      class="button-card-image"
+                    />
+                  </button>
+                  <strong class="card-price-bold">4.5 $</strong>
+                </div>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card animate__animated animate__fadeInUp">
+              <img src="img/imaget1.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title card-title-reg">
+                    California salmon standard
+                  </h3>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="ingredients">
+                    Rice, salmon, avocado, cucumber, mayonnaise, masago caviar, nori seaweed.
+                  </div>
+                </div>
+                <!-- /.card-info -->
+                <div class="card-buttons">
+                  <button class="button button-primary">
+                    <span class="button-card-text">Add to basket</span>
+                    <img
+                      src="img/shopping-cart2.svg"
+                      alt="shop-cart"
+                      class="button-card-image"
+                    />
+                  </button>
+                  <strong class="card-price-bold">4.5 $</strong>
+                </div>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card animate__animated animate__fadeInUp">
+              <img src="img/imaget2.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title card-title-reg">Okinawa standard</h3>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="ingredients">
+                    Rice, boiled shrimp, cream cheese, salmon, fresh cucumber...
+                  </div>
+                </div>
+                <!-- /.card-info -->
+                <div class="card-buttons">
+                  <button class="button button-primary">
+                    <span class="button-card-text">Add to basket</span>
+                    <img
+                      src="img/shopping-cart2.svg"
+                      alt="shop-cart"
+                      class="button-card-image"
+                    />
+                  </button>
+                  <strong class="card-price-bold">4.5 $</strong>
+                </div>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card animate__animated animate__fadeInUp">
+              <img src="img/imaget3.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title card-title-reg">Caesar Maki XL</h3>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="ingredients">
+                    Rice, smoked chicken breast, masago caviar, tomato, iceberg, Caesar sauce...
+                  </div>
+                </div>
+                <!-- /.card-info -->
+                <div class="card-buttons">
+                  <button class="button button-primary">
+                    <span class="button-card-text">Add to basket</span>
+                    <img
+                      src="img/shopping-cart2.svg"
+                      alt="shop-cart"
+                      class="button-card-image"
+                    />
+                  </button>
+                  <strong class="card-price-bold">4.5 $</strong>
+                </div>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card animate__animated animate__fadeInUp">
+              <img src="img/imaget4.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title card-title-reg">
+                    Yasai Maki standard 185 g
+                  </h3>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="ingredients">
+                    Rice, fresh tomato, bell pepper, avocado, cucumber, iceberg
+                  </div>
+                </div>
+                <!-- /.card-info -->
+                <div class="card-buttons">
+                  <button class="button button-primary">
+                    <span class="button-card-text">Add to basket</span>
+                    <img
+                      src="img/shopping-cart2.svg"
+                      alt="shop-cart"
+                      class="button-card-image"
+                    />
+                  </button>
+                  <strong class="card-price-bold">4.5 $</strong>
+                </div>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+
+            <div class="card animate__animated animate__fadeInUp">
+              <img src="img/imaget5.png" alt="image" class="card-image" />
+              <div class="cart-text">
+                <div class="card-heading">
+                  <h3 class="card-title card-title-reg">
+                    Shrimp roll standard
+                  </h3>
+                </div>
+                <!-- /.card-heading -->
+                <div class="card-info">
+                  <div class="ingredients">
+                    Rice, nori seaweed, boiled shrimp, cream cheese, cucumbers
+                  </div>
+                </div>
+                <!-- /.card-info -->
+                <div class="card-buttons">
+                  <button class="button button-primary">
+                    <span class="button-card-text">Add to basket</span>
+                    <img
+                      src="img/shopping-cart2.svg"
+                      alt="shop-cart"
+                      class="button-card-image"
+                    />
+                  </button>
+                  <strong class="card-price-bold">4.5 $</strong>
+                </div>
+              </div>
+              <!-- /.card-text -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.cards -->
+        </section>
+      </div>
+      <!-- /.container -->
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <img src="img/logo.svg" alt="logo" class="logo footer-logo" />
+          <nav class="footer-nav">
+            <a href="#" class="footer-link">To Restaurants</a>
+            <a href="#" class="footer-link">To Couriers</a>
+            <a href="#" class="footer-link">Press center</a>
+            <a href="#" class="footer-link">Contacts</a>
+          </nav>
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><img src="img/instagram.svg" alt="instagram"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/facebook.svg" alt="facebook"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/vk.svg" alt="vk"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h3 class="modal-title">Корзина</h3>
+          <button class="close">&times;</button>
+        </div>
+        <!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="food-row">
+            <span class="food-name">Eel roll standard</span>
+            <strong class="food-price">4.5 $</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <!-- /.foods-row -->
+          <div class="food-row">
+            <span class="food-name">California salmon standard</span>
+            <strong class="food-price">4.5 $</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <!-- /.foods-row -->
+          <div class="food-row">
+            <span class="food-name">Yasai Maki standard 185 g</span>
+            <strong class="food-price">4.5 $</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <!-- /.foods-row -->
+          <div class="food-row">
+            <span class="food-name">Shrimp roll standard</span>
+            <strong class="food-price">4.5 $</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <!-- /.foods-row -->
+        </div>
+        <!-- /.modal-body -->
+        <div class="modal-footer">
+          <span class="modal-pricetag">18 $</span>
+          <div class="footer-buttons">
+            <button class="button button-primary">Order</button>
+            <button class="button">Cancel</button>
+          </div>
+        </div>
+        <!-- /.modal-footer -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
